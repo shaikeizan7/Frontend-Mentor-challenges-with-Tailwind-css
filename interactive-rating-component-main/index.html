@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Interactive Rating Component</title>
+  </head>
+  <body class="bg-Very-Dark-Blue">
+    <!--flex- container -->
+    <div class="flex items-center justify-center mx-6 min-h-screen">
+      <!-- container -->
+      <div class="rounded-xl bg-Dark-Blue p-6 w-[327px] space-y-6">
+        <!-- top div -->
+        <div
+          class="bg-Very-Dark-Blue rounded-full flex items-center justify-center h-12 w-12"
+        >
+          <img src="images/icon-star.svg" alt="" />
+        </div>
+        <h1 class="text-2xl text-white font-bold">How did we do?</h1>
+        <p class="text-sm text-Light-Grey leading-5">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="flex items-center justify-between">
+          <div
+            class="bg-Very-Dark-Blue rounded-full h-10 w-10 text-Light-Grey flex items-center justify-center"
+          >
+            1
+          </div>
+          <div
+            class="bg-Very-Dark-Blue rounded-full h-10 w-10 text-Light-Grey flex items-center justify-center"
+          >
+            2
+          </div>
+          <div
+            class="bg-Very-Dark-Blue rounded-full h-10 w-10 text-Light-Grey flex items-center justify-center"
+          >
+            3
+          </div>
+          <div
+            class="bg-Very-Dark-Blue rounded-full h-10 w-10 text-Light-Grey flex items-center justify-center"
+          >
+            4
+          </div>
+          <div
+            class="bg-Very-Dark-Blue rounded-full h-10 w-10 text-Light-Grey flex items-center justify-center"
+          >
+            5
+          </div>
+        </div>
+        <button
+          class="rounded-full bg-orange text-white uppercase tracking-wider font-semibold px-8 py-2 w-full text-sm flex items-center justify-center"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+
+    <!-- thank section -->
+    <div class="flex items-center justify-center mx-6 min-h-screen">
+      <!-- container -->
+      <div
+        class="rounded-xl bg-Dark-Blue p-6 w-[327px] space-y-6 flex flex-col items-center justify-center"
+      >
+        <img src="images/illustration-thank-you.svg" alt="" />
+        <p
+          class="text-orange bg-Very-Dark-Blue px-4 py-1 flex items-center justify-center rounded-full text-sm"
+        >
+          You selected 4 out of 5
+        </p>
+        <p class="text-white text-xl font-semibold">Thank you!</p>
+        <p class="text-Medium-Grey text-center text-sm">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

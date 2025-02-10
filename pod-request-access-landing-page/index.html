@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pod-request-landing-page</title>
+  </head>
+  <body>
+    <!-- for mobile -->
+    <!-- bg-container -->
+    <div
+      class="relative bg-mobile bg-no-repeat bg-cover min-h-screen md:hidden"
+    >
+      <!-- Full Overlay Gradient -->
+      <div
+        class="absolute inset-0 bg-black opacity-75 transparent md:hidden"
+      ></div>
+
+      <div
+        class="relative z-10 text-white flex flex-col items-center justify-center pt-20 px-6 max-w-2xl mx-auto space-y-16"
+      >
+        <img src="assets/desktop/logo.svg" alt="" />
+        <div class="flex flex-col items-center justify-center">
+          <h1 class="text-3xl uppercase text-center leading-10">
+            <span class="text-green-300 text-center"
+              >Publish your podcasts</span
+            >
+            everywhere
+          </h1>
+          <p class="text-sm leading-6 my-6 px-4 text-center text-blue-100">
+            Upload your audio to Pod with a single click. We’ll then distribute
+            your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
+            Casts and more!
+          </p>
+          <!-- logos -->
+          <div class="flex space-x-6 mt-4">
+            <img src="assets/desktop/spotify.svg" class="h-6" alt="" />
+            <img src="assets/desktop/apple-podcast.svg" class="h-6" alt="" />
+            <img src="assets/desktop/google-podcasts.svg" class="w-24" alt="" />
+            <img src="assets/desktop/pocket-casts.svg" class="h-5" alt="" />
+          </div>
+          <!-- buttons -->
+          <div
+            class="w-full px-6 flex flex-col items-center justify-center space-y-4 mt-10"
+          >
+            <button
+              class="bg-slate-600 text-gray-400 text-start text-sm font-bold py-3 px-8 rounded-full w-full"
+            >
+              Email address
+            </button>
+            <button
+              class="bg-green-500 text-gray-900 text-sm font-bold py-3 px-8 rounded-full w-full"
+            >
+              Request Access
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- for desktop -->
+    <div class="bg-black h-screen relative overflow-x-hidden z-0">
+      <img src="assets/desktop/logo.svg " alt="" class="px-32 py-16" />
+      <img
+        src="assets/desktop/image-host.jpg"
+        class="absolute -right-10 top-[70px] w-2/3 h-[550px]"
+        alt=""
+      />
+      <!-- box -->
+      <div class="bg-black h-[450px] w-[650px] absolute left-32 z-10 pt-10">
+        <h1 class="text-4xl uppercase text-left text-white leading-10">
+          <span class="text-green-300">Publish your podcasts</span>
+          everywhere.
+        </h1>
+        <p class="text-sm leading-6 my-6 text-left text-blue-100 max-w-sm">
+          Upload your audio to Pod with a single click. We’ll then distribute
+          your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts
+          and more!
+        </p>
+
+        <!-- buttons -->
+        <div class="w-full flex flex-col items-start justify-center">
+          <button
+            class="bg-slate-600 text-gray-400 text-start text-xs font-bold py-1 px-1 pl-6 rounded-full w-96 flex items-center justify-between"
+          >
+            Email address
+            <p
+              class="bg-green-500 text-gray-900 text-xs font-bold py-2 px-6 rounded-full w-fit"
+            >
+              Request Access
+            </p>
+          </button>
+        </div>
+        <!-- logos -->
+        <div class="flex space-x-6 mt-8">
+          <img src="assets/desktop/spotify.svg" class="h-6" alt="" />
+          <img src="assets/desktop/apple-podcast.svg" class="h-6" alt="" />
+          <img src="assets/desktop/google-podcasts.svg" class="w-24" alt="" />
+          <img src="assets/desktop/pocket-casts.svg" class="h-5" alt="" />
+        </div>
+      </div>
+      <img
+        src="assets/desktop/bg-pattern-dots.svg"
+        class="absolute -right-0.5 bottom-6"
+        alt=""
+      />
+    </div>
+  </body>
+</html>

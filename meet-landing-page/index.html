@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Meet landing page</title>
+  </head>
+  <body>
+    <!-- section hero -->
+    <section class="min-h-screen">
+      <img src="assets/logo.svg" alt="" class="mx-auto my-10" />
+      <div class="relative flex">
+        <div>
+          <!-- img  -->
+          <img
+            src="assets/desktop/image-hero-left.png"
+            alt=""
+            class="w-1/2 absolute -left-6 md:hidden"
+          />
+          <!-- img  -->
+          <img
+            src="assets/desktop/image-hero-right.png"
+            alt=""
+            class="w-1/2 absolute -right-6  md:hidden"
+          />
+        </div>
+        <!-- coontent -->
+        <div
+          class="absolute md:max-w-md max-w-xs px-6 flex flex-col items-center justify-center top-60 md:top-96 transform translate-x-20 md:translate-x-44 lg:top-10 lg:left-1/4 space-y-4 lg:space-y-6"
+        >
+          <h1 class="text-4xl md:text-5xl lg:text-6xl px-4 text-center lg:px-0 text-dark-blue font-black">
+            Group Chat for Everyone
+          </h1>
+          <p class="text-center">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
+          <div class="flex flex-col items-center space-y-2 md:flex-row md:space-y-0 space-x-4">
+            <button
+              class="rounded-full bg-cyan text-white py-3 px-8 text-xs font-bold"
+            >
+              Download <span class="text-gray-300">v1.3</span>
+            </button>
+            <button
+              class="rounded-full bg-purple text-white py-3 px-6 text-xs font-bold w-fit"
+            >
+              what is it?</span>
+            </button>
+          </div>
+        </div>
+        <div>
+          <!-- img tab -->
+          <img
+            src="assets/desktop/image-hero-left.png"
+            alt=""
+            class="absolute hidden md:block -left-6"
+          />
+
+          <!-- img tab -->
+          <img
+            src="assets/desktop/image-hero-right.png"
+            alt=""
+            class="absolute hidden md:block -right-6"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- section -->
+    
+    <section id="gallery" class="md:mb-20 mt-0">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto p-16 md:p-0 lg:max-w-6xl">
+        <img src="assets/desktop/image-woman-in-videocall.jpg" alt="Woman in Video Call" class="w-full h-auto rounded-lg object-cover">
+        <img src="assets/desktop/image-women-videochatting.jpg" alt="Women Video Chatting" class="w-full h-auto rounded-lg object-cover">
+        <img src="assets/desktop/image-men-in-meeting.jpg" alt="Men in Meeting" class="w-full h-auto rounded-lg object-cover">
+        <img src="assets/desktop/image-man-texting.jpg" alt="Men in Meeting" class=" rounded-lg ">
+      </div>
+    </section>
+    <!-- built section -->
+     <section id="built">
+      <div class="flex flex-col max-w-full px-10 space-y-6 items-center md:max-w-xl mx-auto my-20">
+        <p class="text-xs tracking-widest  font-bold uppercase text-cyan">Built for modern use</p>
+        <h3 class="font-black text-3xl text-dark-blue text-center px-10 md:px-14">Smarter meetings, all in one place</h3>
+        <p class="text-xs text-dark-blue text-center md:px-12">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+      </div>
+
+     </section>
+     <!-- footer -->
+      <footer class=" relative bg-bg-mobile h-96 bg-no-repeat bg-cover md:bg-bg-desktop lg:h-60 
+       ">
+       <div class="absolute inset-0 bg-gradient-to-b from-cyan  to-cyan opacity-80 ">
+      </div>
+
+        <div class="relative z-10 text-white flex flex-col items-center justify-center h-full space-y-8 max-w-md mx-auto lg:flex-row lg:justify-between lg:max-w-6xl lg:items-center ">
+
+          <div>
+            <h1 class="text-2xl font-black text-center max-w-xs lg:px-6 lg:text-left lg:text-3xl text-white ">Experience more together</h1>
+          </div>
+          
+          <div>
+
+            <p class="text-white px-10 text-center lg:max-w-sm">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+          </div>
+          <div>
+
+            <button
+            class="rounded-full bg-purple text-white py-3 px-8 text-xs font-bold"
+            >
+            Download <span class="text-gray-300">v1.3</span>
+          </button>
+        </div>
+        </div>
+
+      </footer>
+  </body>
+</html>
